@@ -3,6 +3,7 @@
 __pycache__/
 *.py[cod]
 .DS_Store
+backups/
 # 原始数据与训练产物；配置、代码、报告摘要单独保留
 gym/data/*.pkl
 gym/data/*.hdf5

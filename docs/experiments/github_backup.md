@@ -32,3 +32,26 @@ checkpoints、评估轨迹和动画，并保留队列任务记录及环境版本
 或待实验完成后归档。
 
 本次整理和上传代码不停止、重启或修改正在运行的训练。
+
+## 从服务器带走完整文件
+
+在服务器项目目录运行 `python -u experiments/backup_project.py`。
+产物位于 `backups/日期时间/`，包括完整项目压缩包、`SHA256SUMS` 和
+`summary.json`。脚本逐文件复制快照后归档，校验归档内每个项目文件，
+并导出两个训练环境的 pip 版本清单。运行中的实验只保存当前部分结果，
+不是事务一致的恢复训练快照。安装好的 Conda 环境二进制、项目外的 MuJoCo
+和登录凭据不包含在项目压缩包中。
+
+在 **Mac 本地终端**（不是 SSH 登录后的服务器终端）执行：
+
+```bash
+mkdir -p ~/Downloads/DT_Backup
+rsync -avP ubuntu@服务器地址:/home/ubuntu/weight/decision-transformer-master/backups/日期时间/ ~/Downloads/DT_Backup/
+cd ~/Downloads/DT_Backup
+shasum -a 256 -c SHA256SUMS
+```
+
+将服务器地址和日期时间替换为真实值；SSH 使用非默认端口时为 rsync
+增加 `-e 'ssh -p 端口'`。中断后重复 rsync 命令可继续传输。
+校验通过后用 `tar -xzf DT_Reproduction-日期时间.tar.gz` 解压。
+确认本地备份完整且训练全部结束前，不删除服务器上的原文件。
