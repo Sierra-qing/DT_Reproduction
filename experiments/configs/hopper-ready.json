@@ -1,0 +1,20 @@
+{
+  "name": "hopper-ready",
+  "job_ids": [
+    "bc-hopper-medium-p100-s0",
+    "bc-hopper-medium-p100-s1",
+    "bc-hopper-medium-p100-s2",
+    "bc-hopper-medium-p10-s0",
+    "bc-hopper-medium-p10-s1",
+    "bc-hopper-medium-p10-s2",
+    "bc-hopper-medium-p25-s0",
+    "bc-hopper-medium-p25-s1",
+    "bc-hopper-medium-p25-s2",
+    "bc-hopper-medium-p40-s0",
+    "bc-hopper-medium-p40-s1",
+    "bc-hopper-medium-p40-s2",
+    "delayed-hopper-medium-s0",
+    "delayed-hopper-medium-s1",
+    "delayed-hopper-medium-s2"
+  ]
+}

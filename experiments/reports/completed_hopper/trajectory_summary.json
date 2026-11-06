@@ -1,0 +1,98 @@
+[
+  {
+    "seed": 0,
+    "target": 3600,
+    "episodes": 100,
+    "mean_return": 2091.085931991822,
+    "mean_steps": 655.65,
+    "mean_reward_per_step": 3.1865985540437936,
+    "mean_forward_velocity": 2.1876919336867426,
+    "height_failure_count": 99,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1819.378932719757,
+      2019.688475270957,
+      2598.9655186249806
+    ]
+  },
+  {
+    "seed": 0,
+    "target": 1800,
+    "episodes": 100,
+    "mean_return": 1931.2246314985996,
+    "mean_steps": 611.21,
+    "mean_reward_per_step": 3.157797059637523,
+    "mean_forward_velocity": 2.1588909170019623,
+    "height_failure_count": 100,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1720.9193626000022,
+      1826.009516983571,
+      2297.0831482664116
+    ]
+  },
+  {
+    "seed": 1,
+    "target": 3600,
+    "episodes": 100,
+    "mean_return": 2056.371511834905,
+    "mean_steps": 642.3,
+    "mean_reward_per_step": 3.1981301581657915,
+    "mean_forward_velocity": 2.1992256632352167,
+    "height_failure_count": 99,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1788.3459621057746,
+      1932.0665018839243,
+      2490.6120306507637
+    ]
+  },
+  {
+    "seed": 1,
+    "target": 1800,
+    "episodes": 100,
+    "mean_return": 2036.5451262740912,
+    "mean_steps": 636.78,
+    "mean_reward_per_step": 3.195163555313682,
+    "mean_forward_velocity": 2.196270114300761,
+    "height_failure_count": 99,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1795.3566787707384,
+      1933.8311399327363,
+      2415.0612011448993
+    ]
+  },
+  {
+    "seed": 2,
+    "target": 3600,
+    "episodes": 100,
+    "mean_return": 1771.4415470647334,
+    "mean_steps": 552.84,
+    "mean_reward_per_step": 3.2003309912936233,
+    "mean_forward_velocity": 2.2014098887475155,
+    "height_failure_count": 100,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1551.7049952016291,
+      1677.1998029290987,
+      2101.4721268565686
+    ]
+  },
+  {
+    "seed": 2,
+    "target": 1800,
+    "episodes": 100,
+    "mean_return": 1790.4636846383346,
+    "mean_steps": 557.97,
+    "mean_reward_per_step": 3.204568761707809,
+    "mean_forward_velocity": 2.2056547485972726,
+    "height_failure_count": 100,
+    "angle_failure_count": 0,
+    "return_quantiles_10_50_90": [
+      1566.5182085619133,
+      1706.033515716924,
+      2130.1372281766144
+    ]
+  }
+]

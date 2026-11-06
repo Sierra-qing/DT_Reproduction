@@ -1,0 +1,5 @@
+# Install torch==2.5.1 separately; see REPRODUCE_4090.md.
+numpy==1.26.4
+gymnasium==0.29.1
+mujoco==2.3.7
+transformers==4.40.2

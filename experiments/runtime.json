@@ -1,0 +1,6 @@
+{
+  "gym_python": "/home/ubuntu/miniconda3/envs/decision-transformer-gym/bin/python",
+  "atari_python": "/home/ubuntu/miniconda3/envs/decision-transformer-atari/bin/python",
+  "atari_logging_python": "/home/ubuntu/miniconda3/envs/decision-transformer-gym/bin/python",
+  "note": "Atari uses official Python3.7.9; SwanLab runs in isolated Python3.8 logging process. No Gym environment upgrades."
+}

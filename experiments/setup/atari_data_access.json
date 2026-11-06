@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-06",
+  "bucket": "gs://atari-replay-datasets",
+  "list_http_status": 401,
+  "single_object_http_status": 403,
+  "probe_file": "breakout_object_probe.json",
+  "known_issue": "https://github.com/takuseno/d4rl-atari/issues/19",
+  "no_alternative_dataset_substituted": true
+}

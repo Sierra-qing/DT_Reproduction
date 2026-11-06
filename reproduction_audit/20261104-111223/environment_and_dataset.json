@@ -1,0 +1,22 @@
+{
+  "versions": {
+    "torch": "2.5.1+cu124",
+    "numpy": "1.26.4",
+    "transformers": "4.40.2",
+    "gym": "not installed",
+    "gymnasium": "0.29.1",
+    "mujoco": "2.3.7",
+    "mujoco-py": "not installed",
+    "d4rl": "not installed",
+    "wandb": "not installed"
+  },
+  "dataset": {
+    "trajectories": 2186,
+    "timesteps": 999906,
+    "state_dim": 11,
+    "action_dim": 3,
+    "mean_return": 1422.05615234375,
+    "min_return": 315.8680114746094,
+    "max_return": 3222.360595703125
+  }
+}

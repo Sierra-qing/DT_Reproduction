@@ -1,0 +1,40 @@
+--- before_restore/gym/decision_transformer/evaluation/evaluate_episodes.py
++++ official/gym/decision_transformer/evaluation/evaluate_episodes.py
+@@ -21,7 +21,7 @@
+     state_mean = torch.from_numpy(state_mean).to(device=device)
+     state_std = torch.from_numpy(state_std).to(device=device)
+ 
+-    state, _ = env.reset()
++    state = env.reset()
+ 
+     # we keep all the histories on the device
+     # note that the latest action and reward will be "padding"
+@@ -47,8 +47,7 @@
+         actions[-1] = action
+         action = action.detach().cpu().numpy()
+ 
+-        state, reward, terminated, truncated, _ = env.step(action)
+-        done = terminated or truncated
++        state, reward, done, _ = env.step(action)
+ 
+         cur_state = torch.from_numpy(state).to(device=device).reshape(1, state_dim)
+         states = torch.cat([states, cur_state], dim=0)
+@@ -83,7 +82,7 @@
+     state_mean = torch.from_numpy(state_mean).to(device=device)
+     state_std = torch.from_numpy(state_std).to(device=device)
+ 
+-    state, _ = env.reset()
++    state = env.reset()
+     if mode == 'noise':
+         state = state + np.random.normal(0, 0.1, size=state.shape)
+ 
+@@ -116,8 +115,7 @@
+         actions[-1] = action
+         action = action.detach().cpu().numpy()
+ 
+-        state, reward, terminated, truncated, _ = env.step(action)
+-        done = terminated or truncated
++        state, reward, done, _ = env.step(action)
+ 
+         cur_state = torch.from_numpy(state).to(device=device).reshape(1, state_dim)
+         states = torch.cat([states, cur_state], dim=0)

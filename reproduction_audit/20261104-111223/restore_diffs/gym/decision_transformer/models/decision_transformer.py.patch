@@ -1,0 +1,19 @@
+--- before_restore/gym/decision_transformer/models/decision_transformer.py
++++ official/gym/decision_transformer/models/decision_transformer.py
+@@ -35,7 +35,6 @@
+ 
+         # note: the only difference between this GPT2Model and the default Huggingface version
+         # is that the positional embeddings are removed (since we'll add those ourselves)
+-        config.n_ctx = config.n_positions
+         self.transformer = GPT2Model(config)
+ 
+         self.embed_timestep = nn.Embedding(max_ep_len, hidden_size)
+@@ -58,7 +57,7 @@
+ 
+         if attention_mask is None:
+             # attention mask for GPT: 1 if can be attended to, 0 if not
+-            attention_mask = torch.ones((batch_size, seq_length), dtype=torch.long, device=states.device)
++            attention_mask = torch.ones((batch_size, seq_length), dtype=torch.long)
+ 
+         # embed each modality with a different head
+         state_embeddings = self.embed_state(states)

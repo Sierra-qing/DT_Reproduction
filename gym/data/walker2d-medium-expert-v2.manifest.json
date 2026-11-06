@@ -1,0 +1,13 @@
+{
+  "dataset": "walker2d-medium-expert-v2",
+  "official_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium_expert-v2.hdf5",
+  "download_url": "https://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/walker2d_medium_expert-v2.hdf5",
+  "hdf5_sha256": "6b8d7f868c45bbaedf460be797fb7271b46dee6ebe45fe7a64319f2005b59a04",
+  "pickle_sha256": "42af088558e412fbfb79a60e5835beae9e09050e44ba8b1e4ab9212e697cd1e1",
+  "input_steps": 1999995,
+  "saved_steps": 1999209,
+  "trajectories": 2190,
+  "return_mean": 3796.57177734375,
+  "conversion": "official terminal/timeout split; incomplete trailing trajectory omitted",
+  "upstream_digest": "not published/verified; hashes record local provenance only"
+}

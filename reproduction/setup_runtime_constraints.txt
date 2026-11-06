@@ -1,0 +1,11 @@
+# 核心版本保持官方要求；torch 的 cu111 构建是用户已授权的 4090 兼容差异。
+gym==0.18.3
+mujoco-py==2.0.2.13
+numpy==1.20.3
+torch==1.8.1+cu111
+transformers==4.5.1
+swanlab==0.7.20
+# 官方未锁定的构建/间接依赖，固定兼容组合。
+Cython==0.29.37
+protobuf==3.20.3
+imageio==2.9.0

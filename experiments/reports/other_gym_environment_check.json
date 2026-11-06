@@ -1,0 +1,24 @@
+[
+  {
+    "env": "HalfCheetah-v3",
+    "observation_shape": [
+      17
+    ],
+    "action_shape": [
+      6
+    ],
+    "reset_step": "passed",
+    "finite_observations": true
+  },
+  {
+    "env": "Walker2d-v3",
+    "observation_shape": [
+      17
+    ],
+    "action_shape": [
+      6
+    ],
+    "reset_step": "passed",
+    "finite_observations": true
+  }
+]

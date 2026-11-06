@@ -1,0 +1,20 @@
+{
+  "name": "return-sweeps",
+  "job_ids": [
+    "sweep-hopper-medium-replay-s0",
+    "sweep-hopper-medium-replay-s1",
+    "sweep-hopper-medium-replay-s2",
+    "sweep-halfcheetah-medium-replay-s0",
+    "sweep-halfcheetah-medium-replay-s1",
+    "sweep-halfcheetah-medium-replay-s2",
+    "sweep-walker2d-medium-replay-s0",
+    "sweep-walker2d-medium-replay-s1",
+    "sweep-walker2d-medium-replay-s2",
+    "sweep-reacher2d-medium-replay-s0",
+    "sweep-reacher2d-medium-replay-s1",
+    "sweep-reacher2d-medium-replay-s2",
+    "diagnostic-sweep-hopper-medium-s0",
+    "diagnostic-sweep-hopper-medium-s1",
+    "diagnostic-sweep-hopper-medium-s2"
+  ]
+}

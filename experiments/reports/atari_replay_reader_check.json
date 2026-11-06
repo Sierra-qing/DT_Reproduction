@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "scope": "synthetic original replay save/load equality, not real-data verification",
+  "state_shape": [
+    1,
+    84,
+    84,
+    4
+  ],
+  "files": [
+    "$store$_action_ckpt.0.gz",
+    "$store$_observation_ckpt.0.gz",
+    "$store$_reward_ckpt.0.gz",
+    "$store$_terminal_ckpt.0.gz",
+    "add_count_ckpt.0.gz",
+    "invalid_range_ckpt.0.gz"
+  ],
+  "python": "/home/ubuntu/miniconda3/envs/decision-transformer-atari/bin/python"
+}

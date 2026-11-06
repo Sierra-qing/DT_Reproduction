@@ -1,0 +1,17 @@
+# 独立Python3.7.9环境；不向Gym环境安装。Torch CUDA wheel单独安装。
+numpy==1.18.5
+tensorflow==1.15.5
+protobuf==3.20.3
+dopamine-rl==3.0.1
+gin-config==0.3.0
+opencv-python==4.5.5.64
+atari-py==0.2.9
+blosc==1.10.6
+gym==0.18.3
+Pillow==8.2.0
+tqdm==4.66.5
+psutil==5.9.8
+pyprind==2.11.3
+packaging==20.9
+matplotlib==3.5.3
+cmake==3.25.2

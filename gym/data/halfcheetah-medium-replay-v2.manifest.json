@@ -1,0 +1,13 @@
+{
+  "dataset": "halfcheetah-medium-replay-v2",
+  "official_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium_replay-v2.hdf5",
+  "download_url": "https://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/halfcheetah_medium_replay-v2.hdf5",
+  "hdf5_sha256": "48d494a4770c11f48260736dec090b78bdca8375647ed4d24bfa5b6610c7f683",
+  "pickle_sha256": "6bbda82943bce4f73ffd1a2f6b872ce0247a0680fb406a6caa22ea303e2c80b4",
+  "input_steps": 202000,
+  "saved_steps": 202000,
+  "trajectories": 202,
+  "return_mean": 3093.28564453125,
+  "conversion": "official terminal/timeout split; incomplete trailing trajectory omitted",
+  "upstream_digest": "not published/verified; hashes record local provenance only"
+}

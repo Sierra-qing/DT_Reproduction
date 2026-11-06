@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "unit_tests": "16 passed: 10 suite + 6 graph mechanism/causality checks",
+  "gpu_smoke": [
+    "BC Hopper: 2 updates, 1 evaluation episode, offline SwanLab + GIF passed",
+    "Delayed DT Hopper: 2 updates, 1 episode per target, offline SwanLab + GIF passed"
+  ],
+  "parallel": "Two live training jobs verified; original BC progress preserved",
+  "not_validated": [
+    "Atari end-to-end execution",
+    "Reacher author datasets",
+    "Key-to-Door and graph official implementations"
+  ],
+  "documentation_links": "passed",
+  "atari_replay": "original synthetic save/load and frame stacking passed",
+  "atari_logging": "Python3.7 -> Python3.8 offline sidecar passed",
+  "atari_runtime": "original replay/model imports passed, CUDA availability true; policy GPU forward/backward deferred",
+  "remaining_blockers": [
+    "Atari original replay upstream401/403 and missing target ROMs",
+    "Reacher original data identity",
+    "Key-to-Door full original implementation",
+    "Graph author settings absent; reimplementation explicitly separate"
+  ]
+}

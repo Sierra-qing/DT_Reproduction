@@ -1,0 +1,80 @@
+{
+  "tensorflow-cpu": {
+    "version": "2.8.4",
+    "python": "",
+    "requires": [
+      "absl-py (>=0.4.0)",
+      "astunparse (>=1.6.0)",
+      "flatbuffers (>=1.12)",
+      "gast (>=0.2.1)",
+      "google-pasta (>=0.1.1)",
+      "h5py (>=2.9.0)",
+      "keras-preprocessing (>=1.1.1)",
+      "libclang (>=9.0.1)",
+      "numpy (>=1.20)",
+      "opt-einsum (>=2.3.2)",
+      "protobuf (<3.20,>=3.9.2)",
+      "setuptools",
+      "six (>=1.12.0)",
+      "termcolor (>=1.1.0)",
+      "typing-extensions (>=3.6.6)",
+      "wrapt (>=1.11.0)",
+      "tensorboard (<2.9,>=2.8)",
+      "tensorflow-estimator (<2.9,>=2.8)",
+      "keras (<2.9,>=2.8.0rc0)",
+      "tensorflow-io-gcs-filesystem (>=0.23.1)",
+      "grpcio (<2.0,>=1.24.3)"
+    ]
+  },
+  "dopamine-rl": {
+    "version": "3.0.1",
+    "python": "",
+    "requires": [
+      "gin-config (>=0.1.1)",
+      "absl-py (>=0.2.2)",
+      "opencv-python (>=3.4.1.15)",
+      "gym (>=0.10.5)",
+      "Pillow (>=5.4.1)"
+    ],
+    "replay_paths": [
+      "dopamine/replay_memory/circular_replay_buffer.py"
+    ],
+    "replay_imports": [
+      "from __future__ import absolute_import",
+      "from __future__ import division",
+      "from __future__ import print_function",
+      "import collections",
+      "import gzip",
+      "import math",
+      "import os",
+      "import pickle",
+      "import numpy as np",
+      "import tensorflow.compat.v1 as tf",
+      "import gin.tf",
+      "from tensorflow.contrib import staging as contrib_staging"
+    ]
+  },
+  "atari-py": {
+    "version": "0.2.9",
+    "python": "",
+    "requires": null
+  },
+  "opencv-python": {
+    "version": "4.5.5.64",
+    "python": ">=3.6",
+    "requires": [
+      "numpy (>=1.13.3) ; python_version < \"3.7\"",
+      "numpy (>=1.21.2) ; python_version >= \"3.10\"",
+      "numpy (>=1.21.2) ; python_version >= \"3.6\" and platform_system == \"Darwin\" and platform_machine == \"arm64\"",
+      "numpy (>=1.19.3) ; python_version >= \"3.6\" and platform_system == \"Linux\" and platform_machine == \"aarch64\"",
+      "numpy (>=1.14.5) ; python_version >= \"3.7\"",
+      "numpy (>=1.17.3) ; python_version >= \"3.8\"",
+      "numpy (>=1.19.3) ; python_version >= \"3.9\""
+    ]
+  },
+  "blosc": {
+    "version": "1.10.6",
+    "python": "",
+    "requires": null
+  }
+}

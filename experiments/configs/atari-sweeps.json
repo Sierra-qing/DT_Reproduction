@@ -1,0 +1,17 @@
+{
+  "name": "atari-sweeps",
+  "job_ids": [
+    "atari-sweep-breakout-s123",
+    "atari-sweep-breakout-s231",
+    "atari-sweep-breakout-s312",
+    "atari-sweep-qbert-s123",
+    "atari-sweep-qbert-s231",
+    "atari-sweep-qbert-s312",
+    "atari-sweep-pong-s123",
+    "atari-sweep-pong-s231",
+    "atari-sweep-pong-s312",
+    "atari-sweep-seaquest-s123",
+    "atari-sweep-seaquest-s231",
+    "atari-sweep-seaquest-s312"
+  ]
+}

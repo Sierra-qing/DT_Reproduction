@@ -1,0 +1,13 @@
+{
+  "dataset": "hopper-medium-expert-v2",
+  "official_url": "http://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium_expert-v2.hdf5",
+  "download_url": "https://rail.eecs.berkeley.edu/datasets/offline_rl/gym_mujoco_v2/hopper_medium_expert-v2.hdf5",
+  "hdf5_sha256": "9d51ad87f8c905be3880d84c6140bcdb7fbf39a19e046a237f238ba34fec9e26",
+  "pickle_sha256": "d70a06b3cb8778a1e167830d28bca88d96cbdbc612f87d4777aae1569f1b752e",
+  "input_steps": 1999906,
+  "saved_steps": 1999400,
+  "trajectories": 3213,
+  "return_mean": 2089.87841796875,
+  "conversion": "official terminal/timeout split; incomplete trailing trajectory omitted",
+  "upstream_digest": "not published/verified; hashes record local provenance only"
+}

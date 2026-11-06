@@ -1,0 +1,51 @@
+{
+  "selection": "last checkpoint at 100000 updates, target RTG=3600; no best-checkpoint selection",
+  "seeds": [
+    {
+      "seed": 0,
+      "run": "gym/runs_observed/hopper-medium-dt-seed0-20261105-134755-075479-paper-overnight-20261105-134746",
+      "raw_return_3600": 2091.085931991822,
+      "score_3600": 64.87360055722657,
+      "length_3600": 655.65,
+      "score_1800": 59.961701680448584,
+      "final_iteration_loss": 0.06630879376083612,
+      "checkpoints": 10,
+      "trajectories": 2000,
+      "videos": 20
+    },
+    {
+      "seed": 1,
+      "run": "gym/runs_observed/hopper-medium-dt-seed1-20261105-183452-533853-paper-overnight-20261105-134746",
+      "raw_return_3600": 2056.371511834905,
+      "score_3600": 63.80696516235195,
+      "length_3600": 642.3,
+      "score_1800": 63.1977795704278,
+      "final_iteration_loss": 0.06636234292201698,
+      "checkpoints": 10,
+      "trajectories": 2000,
+      "videos": 20
+    },
+    {
+      "seed": 2,
+      "run": "gym/runs_observed/hopper-medium-dt-seed2-20261105-231354-338241-paper-overnight-20261105-134746",
+      "raw_return_3600": 1771.4415470647334,
+      "score_3600": 55.05220607058332,
+      "length_3600": 552.84,
+      "score_1800": 55.63668033604601,
+      "final_iteration_loss": 0.06619442300572992,
+      "checkpoints": 10,
+      "trajectories": 2000,
+      "videos": 20
+    }
+  ],
+  "mean_score": 61.244257263387276,
+  "population_std_ddof0": 4.400041760947923,
+  "sample_std_ddof1": 5.388928580629785,
+  "paper_score": 67.6,
+  "gap_points": 6.355742736612719,
+  "paper_url": "https://arxiv.org/html/2106.01345v2",
+  "limitations": [
+    "paper dataset identity and checkpoint aggregation protocol not fully established",
+    "CUDA build and experiment tracking differ from original dependency declaration"
+  ]
+}

@@ -1,0 +1,31 @@
+# 本地依赖与缓存
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+# 原始数据与训练产物；配置、代码、报告摘要单独保留
+gym/data/*.pkl
+gym/data/*.hdf5
+gym/data/*.download
+gym/data/*.tmp
+gym/runs/
+gym/runs_observed/
+atari/dqn_replay/
+experiments/state/
+experiments/batches/
+experiments/smoke_runs/
+experiments/cache/
+experiments/latest_batch.txt
+experiments/reports/status.json
+experiments/reports/status.txt
+reproduction/vendor/
+reproduction/setup_logs/
+reproduction/trajectory_validation_runs/
+reproduction/overnight_runs/
+reproduction/swanlab_validation/
+reproduction/wandb_validation/
+wandb/
+*.pt
+
+# 仅供本地审阅的第三方源码副本
+experiments/research/sources_*/
